@@ -9,6 +9,7 @@ public class GreetingTest {
 	@Test
 	public void greet() throws Exception {
 		// capture stdout
+		//wenn mehrere unterschiedliche primitive Datentypen in ein Byte-Feld kopiert werden sollen
 		ByteArrayOutputStream out = new ByteArrayOutputStream();
 		System.setOut(new PrintStream(out));
 
